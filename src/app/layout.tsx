@@ -17,8 +17,7 @@ export default function RootLayout({
       <body className="w-full bg-neutral-950">
         <Header />
         <div className="mt-17" />
-        <hr className="w-full bg-neutral-900 h-0.5" />
-        <div className="w-full max-w-7xl mx-auto relative">
+        <div className="relative">
           {children}
         </div>
       </body>
