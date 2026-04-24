@@ -1,5 +1,6 @@
 import About from "@/components/about";
 import Branding from "@/components/branding";
+import FullTemplate from "@/components/full-templates";
 import Hero from "@/components/hero";
 import ImageSection from "@/components/imagesection";
 
@@ -10,6 +11,7 @@ export default function LandingPage() {
       <ImageSection />
       <Branding />
       <About />
+      <FullTemplate />
     </div>
   );
 }
