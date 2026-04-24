@@ -1,13 +1,15 @@
+import About from "@/components/about";
+import Branding from "@/components/branding";
 import Hero from "@/components/hero";
 import ImageSection from "@/components/imagesection";
 
 export default function LandingPage() {
   return (
-    <div className="h-auto w-full py-10 relative">
+    <div className="w-full py-10 relative">
       <Hero />
       <ImageSection />
-      {/* another section */}
-      <div className="w-full h-screen bg-red-300"></div>
+      <Branding />
+      <About />
     </div>
   );
 }
